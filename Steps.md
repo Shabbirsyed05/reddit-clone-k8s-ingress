@@ -14,7 +14,22 @@ git clone https://github.com/Shabbirsyed05/reddit-clone-yt.git
 
 ```
 cd reddit-clone-yt
-cat docker
+vim Dockerfile
+```
+```
+FROM node:19-alpine3.15
+
+WORKDIR /reddit-clone
+
+COPY . /reddit-clone
+
+RUN npm install 
+
+EXPOSE 3000
+
+CMD ["npm","run","dev"]
+```
+```
 docker build -t <DockerHub_Username>/reddit-clone  .
 docker build -t Shabbirsyed103/reddit-clone  .
 docker login
