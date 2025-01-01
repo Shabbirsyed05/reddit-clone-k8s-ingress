@@ -10,7 +10,7 @@ sudo apt-get install docker.io -y
 sudo usermod -aG docker $USER && newgrp docker
 ```
 
-git clone https://github.com/Shabbirsyed05/reddit-clone-yt.git
+git clone https://github.com/Shabbirsyed05/reddit-clone-k8s-ingress.git
 
 ```
 cd reddit-clone-yt
