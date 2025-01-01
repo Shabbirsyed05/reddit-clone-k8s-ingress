@@ -31,10 +31,10 @@ CMD ["npm","run","dev"]
 ```
 ```
 docker build -t <DockerHub_Username>/reddit-clone  .
-docker build -t Shabbirsyed103/reddit-clone  .
+docker build -t shabbirsyed103/reddit-clone .
 docker login
 docker push <DockerHub_Username>/<Imagename>
-docker push Shabbirsyed103/reddit-clone
+docker push shabbirsyed103/reddit-clone
 ```
 
 Deployment-Server :
